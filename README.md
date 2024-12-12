@@ -18,6 +18,9 @@ You need to have Ollama installed and the model Qwen2.5-Coder
 
 You can install Ollam here : https://ollama.com/
 
+#### Google Chrome
+
+Due to a library i use that helps me scrabe websites, Google Chrome is needed to run the program, it will open a chrome window, so it needs Google Chrome and its driver installed (The driver comes with google chrome installation already)
 
 
 ## Installing Qwen in Ollama
