@@ -33,7 +33,7 @@ def get_stock_price(query: str):
 
         # Wait for the stock price element to load
         stock_price_element = WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.XPATH, "/html/body/div[4]/div/div[13]/div[3]/div[1]/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div/div/div[3]/g-card-section/div/g-card-section/div[2]/div[1]/span[1]/span/span[1]"))
+            EC.presence_of_element_located((By.XPATH, '//*[@id="knowledge-finance-wholepage__entity-summary"]/div[3]/g-card-section/div/g-card-section/div[2]/div[1]/span[1]/span/span[1]'))
         )
 
         # Extract the current value of the stock
